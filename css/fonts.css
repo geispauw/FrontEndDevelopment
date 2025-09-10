@@ -1,14 +1,14 @@
 @font-face {
     font-family: SalamonLight;
-    src:url(/fonts/Salamon-Light.woff2);
+    src:url(../fonts/Salamon-Light.woff2);
 }
 
 @font-face {
     font-family: SalamonRegular;
-    src: url(/fonts/Salamon-Regular.woff2);
+    src: url(../fonts/Salamon-Regular.woff2);
 }
 
 @font-face {
     font-family: SalamonBold;
-    src: url(/fonts/SALAMON-BOLD);
+    src: url(../fonts/SALAMON-BOLD);
 }
