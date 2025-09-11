@@ -217,7 +217,9 @@ main section:first-of-type p {
 
 a {
     text-decoration: none;
+    color: color;
 }
+
 main section:first-of-type h1 {
     color: white;  
 }
