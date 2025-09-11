@@ -6,6 +6,7 @@
 h1, h2, h3 {
     font-family: SalamonBold;
 }
+
 h1 {
     font-size: 2.8125rem;
     color: white;  
@@ -182,6 +183,7 @@ header section:nth-of-type(3) ul li:nth-of-type(6) a {
 a {
     font-family: SalamonLight;
 }
+
 /* main section */
 main section:first-of-type  {
     background-image:linear-gradient(to left, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.281) 100%), url("../images/FW25_GRAVEL_AEROBLAZE3GRVLGTX_ECOM_HP_HeroBanner_Desktop_01.webp");
@@ -193,12 +195,28 @@ main section:first-of-type  {
 main section:first-of-type ul {
     display:flex;
     flex-direction: column;
-    text-decoration-style: none;
+    text-decoration: none;
+}
+main section:first-of-type ul {
+    display: flex;
+    flex-direction: row ;
+    list-style-type: none;
+    display: flex;
+}
 
+main section:first-of-type ul li {
+    padding: 1em;
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 1em;
 }
 
 main section:first-of-type p {
     padding: 1.5em 0;
+}
+
+a {
+    text-decoration: none;
 }
 main section:first-of-type h1 {
     color: white;  
