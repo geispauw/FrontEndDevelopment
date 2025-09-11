@@ -3,9 +3,31 @@
     margin: 0;
 }
 
+h1, h2, h3 {
+    font-family: SalamonBold;
+}
+h1 {
+    font-size: 2.8125rem;
+    color: white;  
+}
+
+p {
+    font-size: 1em;
+    color: white;  
+}
+
+*:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* header */
-header p {
+p {
     font-family: SalamonLight;
+}
+
+nav {
+    position: sticky;
 }
 
 nav a img {
@@ -32,7 +54,6 @@ nav {
 
 nav ul li a {
     text-decoration: none;
-    font-family: SalamonLight;
     font-weight: 320;
     color: black;
     font-size: 10.5pt;
@@ -90,15 +111,14 @@ header input {
 
 /* black bar up top */
 header > section:nth-of-type(1) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     background-color: #000000;
     padding: 0 4em;
 }
 
 header > section:nth-of-type(1) > a {
+    
     font-size: 10.5pt;
-    font-family: SalamonLight;
     color: white;
     font-weight: 320;
     display: flex;
@@ -110,9 +130,7 @@ header > section:nth-of-type(1) > a {
 
 header > section:nth-of-type(1) section:first-of-type{
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: SalamonLight;
 }
 
 header > section:nth-of-type(1) section:nth-of-type(1) a {
@@ -128,24 +146,13 @@ header section:first-child {
     color: white;
     font-weight: 320;
     font-size: 10.5pt;
+    justify-content: space-between;
 }
 
 header > section:nth-of-type(1) section:nth-of-type(2) {
     justify-content: flex-end;
     padding:0;
     align-items: center;
-}
-
-header > section:nth-of-type(1) a:nth-of-type(1) {
-    justify-content: flex-start;
-}
-
-header > section:nth-of-type(1) p:nth-of-type(1) {
-    justify-content: center;
-}
-
-header > section:nth-of-type(1) section:nth-of-type(2) {
-    justify-content: flex-end;
 }
 
 /* Onder header */
@@ -163,12 +170,113 @@ header section:nth-of-type(3) ul {
 header section:nth-of-type(3) ul li {
     margin-right: 40px;
     font-size: 1em;
-    font-family: SalamonLight;
     font-weight: 525;
     padding-bottom: 0.25em;
     align-items: center;
 }
 
-header section:nth-of-type(3) ul li:nth-of-type(6) {
+header section:nth-of-type(3) ul li:nth-of-type(6) a {
     color: #AF0C1E;
+}
+
+a {
+    font-family: SalamonLight;
+}
+/* main section */
+main section:first-of-type  {
+    background-image:linear-gradient(to left, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.281) 100%), url("../images/FW25_GRAVEL_AEROBLAZE3GRVLGTX_ECOM_HP_HeroBanner_Desktop_01.webp");
+    background-size: cover;
+    background-position: center;
+    padding:min(15vw, 11rem) 3.5em;
+}
+
+main section:first-of-type ul {
+    display:flex;
+    flex-direction: column;
+    text-decoration-style: none;
+
+}
+
+main section:first-of-type p {
+    padding: 1.5em 0;
+}
+main section:first-of-type h1 {
+    color: white;  
+}
+/* responsive */
+.hidden {
+    display:none
+}
+
+
+@media screen and (max-width: 1280px) {
+    nav > ul {
+        order: 2;
+    }
+
+    nav input {
+        order: 3;  
+        width:100%;
+        padding-bottom: 0.5em;
+    }
+
+    input::placeholder {
+        align-items: center;
+    }
+
+    nav > img {
+        width: 10rem;
+    }
+
+    header section:nth-of-type(3) {
+        display:none;
+    } 
+
+    header nav ul li:nth-of-type(2){
+        display:none;
+    }
+
+    header nav ul li:nth-of-type(4){
+        display:flex;
+    }
+
+    header > section:nth-of-type(1){
+        justify-content: center;
+    }
+
+    header section:nth-of-type(2){
+        padding: 0.5em 2.5em;
+    }
+
+    input {
+        padding-bottom: 0.5em;
+    }
+
+    header section:first-child a:first-child, 
+    header section:first-of-type section:nth-of-type(2) {
+        display: none;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    header section:first-of-type section:nth-of-type(1)  {
+        padding:0.625em 0;
+        height: 20px;
+        justify-content: center;
+    }   
+    
+}
+
+@media screen and (max-width: 769px) {
+    nav ul li:first-of-type {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    header section:nth-of-type(2) {
+        padding: 0.5em 1.25em;
+    }
 }
