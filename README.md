@@ -56,7 +56,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  - de alt texts zijn niet de beste. over het algemeen staat er constant iets anders bij zoals "homepage_gravelrunning" wat ook gewoon          "gravelrunning" kon zijn.
+  - Daarnaast is de document naam ook heel lang wat irritant is als je de website gebruikt met je voice over.
+  - Elke keer als het zwarte balkje veranderd, hoor je ook weer de voice over, wat irritant kan worden als je lang voor een product zoekt.
+  - Er is wel een "skip content knop, wat fijn kan zijn.
+  - foto's worden vaak niet opgelezen met alt text, ik denk omdat dat komt omdat het background images zijn, maar dit kan ik zelf niet zo zien.
+  - Er is niet echt een focus state, wat verwarrend kan zijn.
+  - Je wordt geforceerd om door alle soorten producten te gaan die in de header staat, wat enorm veel is om doorheen te gaan. Skip knop zou handig zijn.
+  - Er is geen Dark en light mode.
+  - 
 </details>
 
 
