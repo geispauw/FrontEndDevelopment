@@ -101,10 +101,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-Geis : Ik wil naast de html mijn css nog ff bekijken en vragen wat er precies in een ul moet enzo
-Vince: Ik wil mijn navigate perfect namaken en weten welke elementen ik daar voor nodig heb in mijn css
-Serra: Ik wil weten hoe ik in mijn code een goed grid kan gebruiken en gw ff m’n code checken
-June :
+- Geis : Ik wil naast de html mijn css nog ff bekijken en vragen wat er precies in een ul moet enzo
+- Vince: Ik wil mijn navigate perfect namaken en weten welke elementen ik daar voor nodig heb in mijn css
+- Serra: Ik wil weten hoe ik in mijn code een goed grid kan gebruiken en gw ff m’n code checken
+- June :
 
 
   ### Verslag van meeting
