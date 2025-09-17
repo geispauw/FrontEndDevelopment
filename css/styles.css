@@ -3,99 +3,137 @@
     margin: 0;
 }
 
-h1, h2, h3 {
-    font-family: SalamonBold;
+a, a:visited{
+     color: black;
+     text-decoration: none;
+}
+p {
+    font-family: SalomonLight;
 }
 
 h1 {
-    font-size: 2.8125rem;
-    color: white;  
+    font-family: SalomonBold;
 }
 
-p {
-    font-size: 1em;
-    color: white;  
+.hidden {
+    display: none;
 }
 
-*:visited {
-    color: inherit;
+header nav:nth-of-type(1) a, header nav:nth-of-type(1) p {
+    color:white;
+    font-family: SalomonLight;
+    font-size:14px;
     text-decoration: none;
+    height:20px;
 }
 
-/* header */
-p {
-    font-family: SalamonLight;
-}
-
-nav {
-    position: sticky;
-}
-
-nav a img {
-    width: 1.5rem;
-    padding: 0.75rem;
-}
-
-nav > img {
-    width: 13rem;
-    padding: 0;
-}
-
-header section:nth-of-type(2) {
+header nav:nth-of-type(1) ul {
     display: flex;
-    padding: 1em 3.5em;
-}
-
-nav {
-    display: flex;
-    width: 100%;
-    align-items: center;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    padding: 0em 3.5em;
     justify-content: space-between;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-weight: 320;
-    color: black;
-    font-size: 10.5pt;
     align-items: center;
-    display: flex;
-}
-
-nav > ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: flex-end;
-    order: 3;
-}
-
-nav input[type="text"] {
-    order: 2;
-    margin: 0;
     justify-content: center;
+    height:40px;
+
 }
 
-nav li {
+header nav:nth-of-type(1) ul li:nth-of-type(2) {
+    justify-self: center;
+    
+}
+
+header nav:nth-of-type(1) ul li:nth-of-type(3) {
+    justify-self: end;
+}
+
+
+header nav:nth-of-type(2)  ul > li:nth-of-type(1) a img:nth-of-type(1) {
+    width: 10em;
+    padding:0;
+    justify-content: flex-start;
+}
+
+header nav:nth-of-type(2) ul > li:first-child {
+    margin-right: auto;
+}
+
+header nav:nth-of-type(2) ul li img {
+    width: 1.5em;
+}
+
+header nav:nth-of-type(2) ul {
     display: flex;
+    list-style: none;
+    align-items: center;
+    
 }
 
-nav ul li:nth-of-type(1) a img {
-    padding: 0.7rem;
+header nav:nth-of-type(2) ul img{
+    padding: 0.75em;
 }
 
-nav ul li:nth-of-type(1) a {
-    padding-right: 1rem;
+header nav:nth-of-type(2) {
+    padding: 0.5em 1.25em;
 }
 
-nav ul li:hover {
-    background-color: #e5e5e5;
-    border-radius: 35px;
+/* main */
+section:first-of-type {
+    background-image:linear-gradient(to bottom, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.281) 100%), url("../images/FW25_GRAVEL_AEROBLAZE3GRVLGTX_ECOM_HP_HeroBanner_Mobile_01.webp");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
 }
 
-/* search bar */
+section:first-of-type ul {
+    display: flex;
+    flex-direction: row ;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+section:first-of-type ul li {
+    margin: 3px;
+}
+
+
+section:first-of-type h1, section p, section ul {
+    color: white;
+    padding: 0 1.25rem;
+}
+
+section:first-of-type h1 {
+    font-size: 21pt;
+    padding-bottom: 0.5rem;
+}
+
+section:first-of-type p {
+    font-size: 10.5pt;
+    padding-bottom: 1rem;
+}
+
+section:first-of-type ul li {
+    padding: 1em;
+    font-size: 12pt;
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 1em;
+    font-family: SalomonLight;
+    font-weight:600;
+    color:black; 
+}
+
 header input {
-    width: 604.5px;
+    width: 100%;
     height: 3rem;
     border-radius: 30px;
     border-width: 1px;
@@ -107,196 +145,38 @@ header input {
     background-size: 1.5rem;
     background-position: 1em center;
     padding-left: 3.5em;
+    justify-self: center;
+    font-family: SalomonLight;
 }
 
+@media (width >= 1280px) {
 
-/* black bar up top */
-header > section:nth-of-type(1) {
-    display: flex;
-    background-color: #000000;
-    padding: 0 4em;
-}
-
-header > section:nth-of-type(1) > a {
-    
-    font-size: 10.5pt;
-    color: white;
-    font-weight: 320;
-    display: flex;
-    height: 24px;
-    align-items: center;
-    margin: 0;
-    padding: 8px 0;
-}
-
-header > section:nth-of-type(1) section:first-of-type{
-    display: flex;
-    align-items: center;
-}
-
-header > section:nth-of-type(1) section:nth-of-type(1) a {
-    color: white;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    font-weight: 320;
-    font-size: 10.5pt;
-}
-
-header section:first-child {
-    color:white;
-    color: white;
-    font-weight: 320;
-    font-size: 10.5pt;
+    header nav:nth-of-type(1) ul {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    padding: 0.5em 3.5em;
     justify-content: space-between;
-}
-
-header > section:nth-of-type(1) section:nth-of-type(2) {
-    justify-content: flex-end;
-    padding:0;
+    height:20px;
     align-items: center;
 }
 
-/* Onder header */
-header section:nth-of-type(3) {
-    display: flex;
-    padding: 0em 3.5em 1em 3.5em;
-    list-style-type: none;
-}
-
-header section:nth-of-type(3) ul {
-    list-style-type: none;
-    display: flex;
-}
-
-header section:nth-of-type(3) ul li {
-    margin-right: 40px;
-    font-size: 1em;
-    font-weight: 525;
-    padding-bottom: 0.25em;
-    align-items: center;
-}
-
-header section:nth-of-type(3) ul li:nth-of-type(6) a {
-    color: #AF0C1E;
-}
-
-a {
-    font-family: SalamonLight;
-}
-
-/* main section */
-main section:first-of-type  {
-    background-image:linear-gradient(to left, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.281) 100%), url("../images/FW25_GRAVEL_AEROBLAZE3GRVLGTX_ECOM_HP_HeroBanner_Desktop_01.webp");
-    background-size: cover;
-    background-position: center;
-    padding:min(15vw, 11rem) 3.5em;
-}
-
-main section:first-of-type ul {
-    display:flex;
-    flex-direction: column;
-    text-decoration: none;
-}
-main section:first-of-type ul {
-    display: flex;
-    flex-direction: row ;
-    list-style-type: none;
-    display: flex;
-}
-
-main section:first-of-type ul li {
-    padding: 1em;
-    border-radius: 30px;
-    background-color: white;
-    margin-right: 1em;
-}
-
-main section:first-of-type p {
-    padding: 1.5em 0;
-}
-
-a {
-    text-decoration: none;
-    color: color;
-}
-
-main section:first-of-type h1 {
-    color: white;  
-}
-/* responsive */
-.hidden {
-    display:none
-}
-
-
-@media screen and (max-width: 1280px) {
-    nav > ul {
-        order: 2;
-    }
-
-    nav input {
-        order: 3;  
-        width:100%;
-        padding-bottom: 0.5em;
-    }
-
-    input::placeholder {
-        align-items: center;
-    }
-
-    nav > img {
-        width: 10rem;
-    }
-
-    header section:nth-of-type(3) {
-        display:none;
-    } 
-
-    header nav ul li:nth-of-type(2){
-        display:none;
-    }
-
-    header nav ul li:nth-of-type(4){
-        display:flex;
-    }
-
-    header > section:nth-of-type(1){
-        justify-content: center;
-    }
-
-    header section:nth-of-type(2){
-        padding: 0.5em 2.5em;
-    }
-
-    input {
-        padding-bottom: 0.5em;
-    }
-
-    header section:first-child a:first-child, 
-    header section:first-of-type section:nth-of-type(2) {
-        display: none;
-    }
-
-    nav {
-        flex-wrap: wrap;
-    }
-
-    header section:first-of-type section:nth-of-type(1)  {
-        padding:0.625em 0;
-        height: 20px;
-        justify-content: center;
-    }   
+header nav:nth-of-type(1) ul li:nth-of-type(1) {
+    justify-self: start;
+    display: block;
     
 }
 
-@media screen and (max-width: 769px) {
-    nav ul li:first-of-type {
-        display: none;
-    }
+header nav:nth-of-type(1) ul li:nth-of-type(2) {
+    justify-self: center;
 }
 
-@media screen and (max-width: 639px) {
-    header section:nth-of-type(2) {
-        padding: 0.5em 1.25em;
-    }
+header nav:nth-of-type(1) ul li:nth-of-type(3) {
+    justify-self: end;
+    display: block;
 }
+
+}
+
+
