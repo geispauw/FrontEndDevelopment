@@ -197,6 +197,7 @@ main section:first-of-type ul {
     flex-direction: column;
     text-decoration: none;
 }
+
 main section:first-of-type ul {
     display: flex;
     flex-direction: row ;
