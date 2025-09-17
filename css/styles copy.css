@@ -84,15 +84,15 @@ nav ul li:nth-of-type(1) a img {
     padding: 0.7rem;
 }
 
-nav ul li:nth-of-type(1) a {
-    padding-right: 1rem;
-}
-
-nav ul li:hover {
+header nav:nth-of-type(2) ul li:hover {
     background-color: #e5e5e5;
     border-radius: 35px;
 }
 
+header nav:nth-of-type(2) ul li a:nth-of-type(1) a {
+    padding-right: 1rem;
+    background-color: red;
+}
 /* search bar */
 header input {
     width: 604.5px;
@@ -118,7 +118,6 @@ header > section:nth-of-type(1) {
 }
 
 header > section:nth-of-type(1) > a {
-    
     font-size: 10.5pt;
     color: white;
     font-weight: 320;
@@ -138,8 +137,6 @@ header > section:nth-of-type(1) section:nth-of-type(1) a {
     color: white;
     text-decoration: underline;
     text-underline-offset: 4px;
-    font-weight: 320;
-    font-size: 10.5pt;
 }
 
 header section:first-child {
@@ -287,7 +284,6 @@ main section:first-of-type h1 {
         height: 20px;
         justify-content: center;
     }   
-    
 }
 
 @media screen and (max-width: 769px) {
