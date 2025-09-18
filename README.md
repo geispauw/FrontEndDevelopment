@@ -104,16 +104,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - Geis : Ik wil naast de html mijn css nog ff bekijken en vragen wat er precies in een ul moet enzo
 - Vince: Ik wil mijn navigate perfect namaken en weten welke elementen ik daar voor nodig heb in mijn css
 - Serra: Ik wil weten hoe ik in mijn code een goed grid kan gebruiken en gw ff m’n code checken
-- June :
+- June : /
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: op het begin van elke section moet het beginnen met een <h> element
+  - punt 2:
+  - 
 
 </details>
 
@@ -133,11 +132,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+- Geis : ik wil kijken of mijn html en css een beetje oke is, weten of ik aspect ratio in mijn css mag gebruiken en vragen hoeveel van mijn header ik moet uitwerken en wat de handigste manier is om dat uit te werken
+- Vince: Ik wil weten waar ik de media display none allemaal moet toepassen
+- Serra: ik wil weten hoe ik m’n 2de navigatie moet maken en heb hulp nodig met m’n hamburgermenu
+- June : /
 
 
   ### Verslag van meeting
