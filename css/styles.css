@@ -1,70 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-}
 
-:root {
-    --black: #0c0c0c;
-    --white: #ffffff;
-    --white-image: #ffffff;
-    --lightgray: #e5e5e5;
-    --gray: #f5f5f5;
-    --red: #af0c1e;
-    --header: #000000;
-    --darkgray: #e0e0e0; 
-}
-
-@media (prefers-color-scheme: dark) {
-:root {
-    --black: #FFFFFF;
-    --white-image: #ffffff;
-    --white: #0f0f0f;
-    --lightgray: #414141;
-    --gray: #232323;
-    --red: #e78490;
-    --header: #282828; 
-    background-color: #101010;
-}
-
-img {
-    opacity: 0.9;
-}
-
-header img, section:nth-of-type(7) img, svg {
-    filter: invert(1);
-    opacity: 1;
-}
-}   
-
-
-a, a:visited{
-    color: var(--black);
-    text-decoration: none;
-}
-
-p, h2, h3, a  {
-    font-family: SalomonLight;
-    color:var(--black)
-}
-
-h1 {
-    font-family: SalomonBold;
-}
-
-.hidden {
-    display: none;
-}
-
-.visually-hidden { 
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-}
-
+/* https://theburningmonk.com/2022/07/how-to-add-a-subtle-gradient-effect-on-top-of-video/ */
 /* main */
 main section:first-of-type {
     background-image:linear-gradient(to bottom, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.281) 100%), url("../images/FW25_GRAVEL_AEROBLAZE3GRVLGTX_ECOM_HP_HeroBanner_Mobile_01.webp");
@@ -138,7 +73,8 @@ main section:nth-of-type(2) ul {
 }
 
 main section:nth-of-type(2) ul li {
-  position: relative;
+    position: relative;
+    overflow: hidden;
 }
 
 main section:nth-of-type(2) ul li img:nth-of-type(2) {
@@ -146,9 +82,12 @@ main section:nth-of-type(2) ul li img:nth-of-type(2) {
     top: 14px;
     right: 14px;
     color: var(--white);
-    font-weight: bold;
     z-index: 2;
-    width: 2em;
+    width: 1.5rem;
+}
+
+main section:nth-of-type(2) ul li:hover img:nth-of-type(2), main section:nth-of-type(5) ul li:hover img:nth-of-type(2) {
+    display:block;
 }
 
 main section:nth-of-type(2) ul li a {
@@ -161,10 +100,18 @@ main section:nth-of-type(2) ul li a {
     z-index: 2;
 }
 
-main section:nth-of-type(2) ul li img {
+main section:nth-of-type(2) ul li img, main section:nth-of-type(5) ul li img {
     width:100%;
+    height:auto;
+    overflow: hidden;
+    transition-duration: 0.4s ;
 }
 
+main section:nth-of-type(2) ul li:hover img:first-of-type, main section:nth-of-type(5) ul li:hover img:first-of-type {
+     transform: scale(1.2);
+}
+
+/* https://theburningmonk.com/2022/07/how-to-add-a-subtle-gradient-effect-on-top-of-video/ */
 main section:nth-of-type(2) ul li::before {
     content: "";
     position: absolute;
@@ -186,7 +133,6 @@ main section:nth-of-type(3) article {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
     padding: 2rem 1.25rem;
 }
 
@@ -234,9 +180,16 @@ main section:nth-of-type(3) article:nth-of-type(1) {
 
 }
 
+main section:nth-of-type(3) article:nth-of-type(1):hover {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 50%), url(../images/FW25-HC-M-Gravel-Apparel.jpg);
+}
+
 main section:nth-of-type(3) article:nth-of-type(2) {
     background-image: linear-gradient(to bottom, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%), url(../images/FW25_SPORTSTYLE_SATINPACK_ECOM_HP_HeroCard_Mobile.jpg);
+}
 
+main section:nth-of-type(3) article:nth-of-type(2):hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50%), url(../images/FW25_SPORTSTYLE_SATINPACK_ECOM_HP_HeroCard_Mobile.jpg);
 }
 
 /* Vierde Section */
@@ -245,6 +198,7 @@ main section:nth-of-type(4) > ul {
     padding: 0 1.25rem;
 }
 
+ 
 main section:nth-of-type(4) ul {
     display:flex;
     list-style-type: none;
@@ -256,8 +210,7 @@ main section:nth-of-type(4) ul {
 main section:nth-of-type(4) p {
     color: var(--black);
     font-size: 10.5pt;
-    padding: 0 0.5rem 0.5rem 0;
-    
+    padding: 0 0.5rem 0.5rem 0;   
 }
 
 main section:nth-of-type(4) p:nth-of-type(1), section:nth-of-type(4) p:nth-of-type(2) {
@@ -276,6 +229,8 @@ main section:nth-of-type(4) h2 {
 
 main section:nth-of-type(4) ul li a > img:nth-of-type(1) {
     max-width: 65vw;
+    aspect-ratio: 1/1;
+    
 }
 
 main section:nth-of-type(4) ul li a ul li img {
@@ -293,8 +248,9 @@ main section:nth-of-type(4) li {
 /* Vijfde section */ 
 
 main section:nth-of-type(5) ul {
-padding:0;
-    display:grid;
+    overflow: hidden;
+    padding:0;
+    display:grid;   
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0.5em;
@@ -307,6 +263,7 @@ main section:nth-of-type(5) ul img {
 
 main section:nth-of-type(5) ul li {
   position: relative;
+  overflow: hidden;
 }
 
 main section:nth-of-type(5) ul li img:nth-of-type(2) {
@@ -316,7 +273,7 @@ main section:nth-of-type(5) ul li img:nth-of-type(2) {
     color: var(--white);
     font-weight: bold;
     z-index: 2;
-
+    width: 1.5rem;
 }
 
 main section:nth-of-type(5) ul li a {
@@ -363,7 +320,7 @@ main section:nth-of-type(6) ul {
 
 main section:nth-of-type(6) h2 {
     font-size: 15.75pt;
-    margin: 2rem 2rem 1rem;
+    margin: 2rem 1.5rem 1rem;
 }
 
 main section:nth-of-type(6) ul a {
@@ -376,6 +333,11 @@ main section:nth-of-type(6) ul a {
     max-width: 40vw;          
 }
 
+main section:nth-of-type(6) ul a:hover {
+    color:var(--supergray);
+    text-decoration: underline;
+    text-underline-position: 6px;
+}
 /* 7e Section */
 
 main section:nth-of-type(7) ul {
@@ -491,12 +453,18 @@ main section:nth-of-type(2) ul li img, main section:nth-of-type(2) ul li::before
 main section:nth-of-type(2) ul {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    overflow-y: scroll;
+    overflow-x: scroll;
+    padding-bottom: 1.5em;
 }
 
 main section:nth-of-type(2) ul li {
     min-width: 45vw;
-    padding-bottom: 1.5em;
+    border-radius: 8px;
+}
+
+main section:nth-of-type(5) ul li {
+    min-width: 45vw;
+    border-radius: 8px;    
 }
 
 main section:nth-of-type(2) h2 {
@@ -554,7 +522,7 @@ main section:nth-of-type(5) ul {
     padding: 2.5rem;
 }
 
-main section:nth-of-type(5) ul li img, main section:nth-of-type(5) ul li::before {
+main section:nth-of-type(5) ul li img:first-of-type, main section:nth-of-type(5) ul li::before {
     min-width: 45vw;
     border-radius: 8px;
 }
@@ -599,6 +567,10 @@ main section:nth-of-type(3) article:nth-of-type(1) {
     background-repeat: no-repeat;
 }
 
+main section:nth-of-type(3) article:nth-of-type(1):hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.55) 100%), url(../images/FW25-HC-Gravel-Apparel.jpg);
+}
+
 main section:nth-of-type(3) article:nth-of-type(2) {
     background-image: linear-gradient(to bottom, rgba(212, 212, 212, 0) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.55) 100%), url(../images/FW25_SPORTSTYLE_SATINPACK_ECOM_HP_HeroCard_Desktop.jpg);
     aspect-ratio: 1/1;
@@ -606,10 +578,18 @@ main section:nth-of-type(3) article:nth-of-type(2) {
     background-repeat: no-repeat;
 }
 
-main section:nth-of-type(5) ul li img, main section:nth-of-type(5) ul li::before {
+main section:nth-of-type(3) article:nth-of-type(2):hover {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.55) 100%), url(../images/FW25_SPORTSTYLE_SATINPACK_ECOM_HP_HeroCard_Desktop.jpg);
+}
+main section:nth-of-type(5) ul li img:first-of-type, main section:nth-of-type(5) ul li::before {
     min-width: 20vw;
     border-radius: 8px;
 }
+
+main section:nth-of-type(5) ul li {
+    min-width: 20vw;
+}
+
 main section:nth-of-type(7) ul {
     padding-top:0 ;
     padding-bottom:0 ;

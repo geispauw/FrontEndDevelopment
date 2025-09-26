@@ -1,0 +1,42 @@
+main > ul li img{
+    max-width: 2.875rem;
+}
+
+main > ul {
+    display: flex;
+    overflow-y: scroll;
+}
+
+main > ul li p {
+    font-size: 10.5pt;
+    font-weight: 600;
+}
+main > ul li p:nth-of-type(2) {
+    font-size: 9pt;
+    font-weight: 400;
+}
+   
+
+main > ul li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 100%;
+    padding: 0.25rem 0.75rem 0.25rem 0.5rem;
+    background-color: var(--gray);
+    border-radius: 25px;
+    min-width: 40vw;
+    margin-right:1rem;
+    max-height: 54px;
+
+}
+
+main > ul li p {
+    flex-direction: row;
+    align-self: center;
+}
+
+main > ul li img {
+    margin-right: 0.5rem;
+    grid-row: 1/3;
+}
