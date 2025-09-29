@@ -1,23 +1,37 @@
-main > ul li img{
+main aside > ul li img{
     max-width: 2.875rem;
 }
 
-main > ul {
+main aside > ul {
     display: flex;
     overflow-y: scroll;
+    margin-top: 0.5rem;
+    padding: 0  0 1.25rem;
+    overflow-y: hidden;
+    padding: 0 2rem 1rem;
 }
 
-main > ul li p {
+main aside {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+aside > p {
+    font-size: 10.5pt;
+    padding: 0 2rem;
+
+}
+main aside > ul li p {
     font-size: 10.5pt;
     font-weight: 600;
 }
-main > ul li p:nth-of-type(2) {
+
+main aside > ul li p:nth-of-type(2) {
     font-size: 9pt;
     font-weight: 400;
 }
-   
 
-main > ul li {
+main aside > ul li {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr 1fr;
@@ -25,18 +39,244 @@ main > ul li {
     padding: 0.25rem 0.75rem 0.25rem 0.5rem;
     background-color: var(--gray);
     border-radius: 25px;
-    min-width: 40vw;
-    margin-right:1rem;
+    min-width: 11rem;
+    margin-right:0.25rem;
     max-height: 54px;
-
 }
 
-main > ul li p {
+main aside > ul li p {
     flex-direction: row;
     align-self: center;
 }
 
-main > ul li img {
+main aside > ul li img {
     margin-right: 0.5rem;
     grid-row: 1/3;
+}
+
+main section:nth-of-type(1) button img {
+    width: 3.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+main section:nth-of-type(1) button {
+    margin-left: 1.25rem;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels */
+main section:nth-of-type(1) ul:first-of-type li img {
+    width:100%;
+}
+
+main section:nth-of-type(1) ul:first-of-type {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 4vw;
+    margin-bottom: 2rem;
+}
+
+main section:nth-of-type(1) ul:first-of-type li {
+    list-style-type: none;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
+
+main section:nth-of-type(1) ul:first-of-type {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 4vw;
+  anchor-name: -carousel;
+  scroll-behavior: smooth; /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
+  scroll-marker-group: after;
+  position: relative;
+}
+
+main section:nth-of-type(1) ul:first-of-type li {
+  list-style: none;
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
+main section:nth-of-type(1) ul:first-of-type::scroll-marker-group {
+  position: absolute;
+  position-anchor: -carousel;
+  top: calc(anchor(bottom) + 0.5rem);
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+main section:nth-of-type(1) ul:first-of-type li::scroll-marker {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #a3a3a3;
+  transition: 0.5s;
+}
+
+
+main section:nth-of-type(1) ul:first-of-type li::scroll-marker:target-current {
+  background: #0f0f0f;
+}
+
+main section:first-of-type > p:first-of-type {
+    padding: 0.5rem 1.25rem 0.5rem;
+    font-size: 0.625rem;
+    color: var(--supergray)
+}
+
+main section:first-of-type ul:nth-of-type(2) {
+    display: flex;
+    list-style: none;
+    padding-left: 1.25rem;
+    padding-top: 0.5rem;
+    align-items: center;
+}
+
+main section:first-of-type ul:nth-of-type(2) li {
+    margin-right: 0.5rem;
+    font-size: 0.625rem;
+    color: var(--supergray)
+}
+
+main section:first-of-type ul:nth-of-type(2) li a {
+    font-size: 0.625rem;
+    color: var(--supergray)
+}
+
+main section:first-of-type h2 {
+    font-size: 1.3125rem;
+    padding: 0.5rem 1.25rem 0;
+}
+
+main section:first-of-type > p:nth-of-type(2) {
+    padding: 0.25rem 1.25rem;
+    font-size: 0.875rem;
+}
+
+main section:first-of-type > p:nth-of-type(3) {
+    padding: 0.25rem 1.25rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+main section:first-of-type ul:nth-of-type(3) {
+    display: flex;
+    list-style-type: none;
+    padding: 0.25rem 1.25rem;
+}
+
+main section:first-of-type ul:nth-of-type(3) {
+    font-family: SalomonLight;
+    align-items: center;
+}
+
+main section:first-of-type ul:nth-of-type(3) li p, main section:first-of-type ul:nth-of-type(3) li a {
+    padding: 0 0.25rem;
+    font-size:0.825rem;
+}
+
+svg {
+    width: 1rem;
+}
+
+main section:first-of-type > p:nth-of-type(4) {
+    padding: 1.25rem 1.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+main section:first-of-type > a {
+    padding: 0.25rem 1.25rem;
+    font-size: 0.875rem;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* maten */
+main section:nth-of-type(2) {
+    padding: 1rem 1.25rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    row-gap: 0.5rem;
+}
+
+main section:nth-of-type(2) form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7.125rem, 1fr)); /* Direct van de site gepakt */
+}
+
+main section:nth-of-type(2) > a {
+    justify-self: end;
+    align-self: center;
+    font-size: 0.875rem;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #0051AA;
+}
+
+main section:nth-of-type(2) > h3 {
+    font-size: 0.875rem;
+}
+
+form {
+    grid-column: 1 / -1;
+    gap: 8px;
+}
+
+form input[type="radio"] {
+    display: none;    
+}
+
+form label {
+    font-family: SalomonLight;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    }
+
+form input[type="radio"]:checked + label {
+    border-color: var(--black);
+}
+
+form p:first-of-type {
+    grid-column: 1 / -1;
+    color: var(--red);
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 0.825rem;
+}
+
+form button {
+    grid-column: 1 / -1;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: SalomonLight;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+form p:nth-of-type(2) {
+    padding: 0.25rem;
+    border-radius: 2px;
+    border:1px solid var(--darkgray);
+    grid-column: 1/-1;
+    justify-self: center;
+    font-size: 0.75rem;
 }
