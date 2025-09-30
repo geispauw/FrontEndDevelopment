@@ -56,12 +56,13 @@ main aside > ul li a img {
 
 /* eerste section */
 main section:nth-of-type(2) button img {
-    width: 3.5rem;
+    max-width: 3.25rem;
     margin: 0;
     padding: 0;
 }
 
 main section:nth-of-type(2) button {
+    margin-top: 2rem;
     width: 3.5rem;
     margin-left: 1.25rem;
 
@@ -87,41 +88,40 @@ main section:nth-of-type(1) ul:first-of-type li {
 }
 
 main section:nth-of-type(1) ul:first-of-type {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 4vw;
-  anchor-name: -carousel;
-  scroll-behavior: smooth; /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
-  scroll-marker-group: after;
-  position: relative;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 4vw;
+    anchor-name: -carousel;
+    scroll-behavior: smooth; /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
+    scroll-marker-group: after;
+    position: relative;
 }
 
 main section:nth-of-type(1) ul:first-of-type li {
-  list-style: none;
-  flex: 0 0 100%;
-  scroll-snap-align: center;
+    list-style: none;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
 }
 
 main section:nth-of-type(1) ul:first-of-type::scroll-marker-group {
-  position: absolute;
-  position-anchor: -carousel;
-  top: calc(anchor(bottom) + 0.5rem);
-  display: flex;
-  justify-content: center;
-  gap: 0.25rem;
-  width: 100%;
+    position: absolute;
+    position-anchor: -carousel;
+    top: calc(anchor(bottom) + 0.5rem);
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    width: 100%;
 }
 
 main section:nth-of-type(1) ul:first-of-type li::scroll-marker {
-  content: "";
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #a3a3a3;
-  transition: 0.5s;
-}
-
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #a3a3a3;
+    transition: 0.5s;
+    }
 
 main section:nth-of-type(1) ul:first-of-type li::scroll-marker:target-current {
   background: #0f0f0f;
@@ -132,7 +132,7 @@ main section:nth-of-type(1) > p:first-of-type {
     font-size: 0.625rem;
     color: var(--supergray)
 }
-
+/* section 2 (schoeninfo) */
 main section:nth-of-type(2) ul {
     display: flex;
     list-style: none;
@@ -144,12 +144,19 @@ main section:nth-of-type(2) ul {
 main section:nth-of-type(2) ul li {
     margin-right: 0.5rem;
     font-size: 0.625rem;
-    color: var(--supergray)
+    color: var(--supergray);
 }
 
 main section:nth-of-type(2) ul li a {
     font-size: 0.625rem;
-    color: var(--supergray)
+    color: var(--supergray);
+}
+
+main section:nth-of-type(2) ul:nth-of-type(2) li a {
+    font-size: 0.625rem;
+    color: var(--supergray);
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 main h2 {
@@ -160,6 +167,8 @@ main h2 {
 main section:nth-of-type(2) > p {
     padding: 0.25rem 1.25rem;
     font-size: 0.875rem;
+    font-size: 0.75rem;
+    color: var(--super gray);
 }
 
 main section:nth-of-type(2) > p:nth-of-type(3) {
@@ -200,7 +209,7 @@ main section:nth-of-type(2) > a {
     text-underline-offset: 4px;
 }
 
-/* maten (was 2 → now 3) */
+/* maten (section 3) */
 main section:nth-of-type(3) {
     padding: 1rem 1.25rem;
     display: grid;
@@ -211,7 +220,7 @@ main section:nth-of-type(3) {
 
 main section:nth-of-type(3) form {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(7.125rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(7.125rem, 1fr)); 
 }
 
 main section:nth-of-type(3) > a {
@@ -227,7 +236,7 @@ main section:nth-of-type(3) > h3 {
     font-size: 0.875rem;
 }
 
-/* form remains the same */
+/* form */
 form {
     grid-column: 1 / -1;
     gap: 8px;
@@ -549,14 +558,31 @@ main section:nth-of-type(8) {
     main section:nth-of-type(5) ul li  {
         max-width: 30vw;
     }
+
+    main section:nth-of-type(9) ul li:not(:nth-of-type(3))  {
+        border-right: solid 1px var(--darkgray)
+    }
+    main section:nth-of-type(9) ul {
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: none;
+    }
+
+    main section:nth-of-type(9) ul li {
+        border-bottom: none;
+    }
+
 }
 
 @media (min-width: 1080px) {
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: auto auto 1fr;
         grid-template-rows: auto auto auto auto;
+    }
+    main aside ul, main aside p {
+        padding-left:3.5rem ;
     }
 
     section:first-of-type {
@@ -566,46 +592,139 @@ main section:nth-of-type(8) {
 
     main section:nth-of-type(1) ul:first-of-type {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, auto);
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
         gap: 0.5rem;
         overflow: visible; 
+        padding-left: 3.5rem;
+        padding-right: 2.5rem;
+    }
+
+    main section:nth-of-type(1) ul:first-of-type li {
+        min-width: 20vw;
+        max-width: 30vw;
+    }
+
+    main section:nth-of-type(2) ul p, main section:nth-of-type(2) ul:nth-of-type(2) li a {
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+
+    main section:nth-of-type(2) {
+        display: flex;
+        flex-direction: column;
+        grid-column: 3/3;
+        grid-row: 2/2;
+        padding-right: 3.5rem;
+    }
+    main section:nth-of-type(2) > button, main section:nth-of-type(2) > p:nth-of-type(1) {
+        order: 2;
+    }
+
+    main section:nth-of-type(2) > p:nth-of-type(4), main section:nth-of-type(2) > a  {
+        order:4;
+    }
+    main section:nth-of-type(2) ul:first-of-type {
+        order: -1;
+    }
+
+    main section:nth-of-type(3) {
+        padding-left: 1.5rem;
+        grid-column: 3/3;
+        grid-row: 3/3;
+        padding-right: 3.5rem;
+    }
+
+    main section:nth-of-type(4) {
+        grid-column: 3/3;
+        grid-row: 4/4;
+    }
+
+    main section:nth-of-type(5) {
+        grid-column: 3/3;
+        grid-row: 5/5;
+        background-color: var(--gray);
+    }
+
+    main section:nth-of-type(6) {
+        grid-column: 1/-1;
+        grid-row: 7/7;
+    }
+
+    main section:nth-of-type(6) h2 {
+        padding-left: 3.5rem;
+        padding-bottom: 2rem;
+    }
+
+    main section:nth-of-type(6) ul {
+        display: flex;
+        list-style: none;
+        padding: 0 0 0 3.5rem;
+        margin: 0;
+        overflow-x: hidden ;
+    }
+
+    main section:nth-of-type(6) ul li { 
+        margin: 0 0.25rem;
+        max-width: 30vw;          
+    }
+
+    main section:nth-of-type(6) ul li img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    section:nth-of-type(7) {
+        grid-column: 1/-1;
+        grid-row: 8/8;
+    }
+    main section:nth-of-type(7) h2 {
+        padding-left: 3.5rem;
+    }
+
+    main section:nth-of-type(7) ul {
         padding-left: 3.5rem;
         padding-right: 3.5rem;
     }
 
-    section:nth-of-type(2) {
-        grid-column: 3/3;
-        grid-row: 2/2;
-     }
-    section:nth-of-type(3) {
-        grid-column: 3/3;
-        grid-row: 3/3;
-    }
-
-    section:nth-of-type(4) {
-        grid-column: 3/3;
-        grid-row: 4/4;
-    }
-    section:nth-of-type(5) {
-        grid-column: 3/3;
-        grid-row: 5/5;
-    }
-    section:nth-of-type(6) {
-        grid-column: 1/-1;
-        grid-row: 7/7;
-    }
-    section:nth-of-type(7) {
-        grid-column: 1/-1;
-        grid-row: 8/8;
+    main section:nth-of-type(7) ul li a > img:nth-of-type(1) {
+        max-width: 22vw;
     }
 
     section:nth-of-type(8) {
         grid-column: 1/-1;
         grid-row: 9/9;
+        padding-right: 3.5rem;
     }
+
+    main section:nth-of-type(8) h2 {
+        padding-left: 3.5rem;
+        
+    }
+
+    main section:nth-of-type(8) > ul {
+        grid-template-columns: 1fr 1fr;
+        padding-left:3.5rem;
+    }
+
+
     section:nth-of-type(9) {
         grid-column: 1/-1;
         grid-row: 10/10;
     }
+
+    main section:nth-of-type(9) ul {
+        padding-top:0 ;
+        padding-bottom:0 ;
+    }
+
+    main section:nth-of-type(9) > ul > li:nth-of-type(1) > button {
+        padding: 2rem 3.5rem 2rem 0;
+    }
+
+    main section:nth-of-type(9) > ul > li:not(:nth-of-type(1)) > button {
+        padding: 2rem 3.5rem;
+    }
+
 }

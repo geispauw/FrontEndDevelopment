@@ -304,7 +304,7 @@ main section:nth-of-type(5) h2 {
     font-weight: bold;
 }
 
-/* Zesde Section */
+/* 6e Section */
 
 main section:nth-of-type(6) ul {
     display: grid;
@@ -337,8 +337,8 @@ main section:nth-of-type(6) ul a:hover {
     text-decoration: underline;
     text-underline-position: 6px;
 }
-/* 7e Section */
 
+/* 7e Section */
 main section:nth-of-type(7) ul {
     display: flex;
     flex-direction: column;
@@ -379,9 +379,6 @@ main section:nth-of-type(7) button svg {
 /* RESPONSIVE  */
 
 @media (min-width: 640px) {
-
-
-
 main section:nth-of-type(4) ul li a > img:nth-of-type(1) {
     max-width: 37vw;
 }
@@ -407,6 +404,7 @@ main section:nth-of-type(7) ul {
     justify-content: space-between;
     border-bottom: none;
 }
+
 main section:nth-of-type(7) ul li {
     border-bottom: none;
 }
