@@ -14,6 +14,11 @@
     --darkgray: #e0e0e0; 
     --supergray: #363636; 
     --alwaysblack: #000000;
+    --scrollmarker: #a3a3a3;
+    --currentscrollmarker: #0f0f0f;
+    --superlightgray: #F5F5F5; 
+    --midgray: #737373;
+    --blue: #0051AA;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,15 +32,15 @@
     --header: #282828; 
     background-color: #101010;
     --supergray: #959595; 
+    --superlightgray: #202020; 
 }
 
 img {
     opacity: 0.9;
 }
 
-header img, section:nth-of-type(7) img, svg {
-    filter: invert(1);
-    opacity: 1;
+svg {
+    filter:invert(1)
 }
 }   
 

@@ -1,3 +1,11 @@
+@media (prefers-color-scheme: dark) {
+header img, section:nth-of-type(7) img, svg {
+    color: white;
+    filter: invert(1);
+    opacity: 1;
+}
+
+}  
 
 /* https://theburningmonk.com/2022/07/how-to-add-a-subtle-gradient-effect-on-top-of-video/ */
 /* main */
@@ -354,7 +362,7 @@ main section:nth-of-type(7) ul li {
     border-bottom: solid 1px var(--darkgray);
 }
 
-main section:nth-of-type(7) svg, section:nth-of-type(7) img {
+section:nth-of-type(7) img {
     width: 1.5rem;
     padding-right: 1rem; 
 }
@@ -371,7 +379,7 @@ main section:nth-of-type(7) button {
     font-size: 10.5pt;
 }
 
-main section:nth-of-type(7) button svg {
+main section:nth-of-type(7) button img:nth-of-type(2) {
     margin-left: auto;
     justify-content: end;
 }

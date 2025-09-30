@@ -1,3 +1,18 @@
+@media (prefers-color-scheme: dark) {
+header img {
+    color: white;
+    filter: invert(1);
+    opacity: 1;
+}
+main section:nth-of-type(9) ul img, main section:nth-of-type(4) ul img {
+    filter: invert(1);    
+}
+}
+
+li::marker {
+    color:var(--black)
+}
+
 main aside > ul li img{
     max-width: 2.875rem;
 }
@@ -119,12 +134,12 @@ main section:nth-of-type(1) ul:first-of-type li::scroll-marker {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
-    background-color: #a3a3a3;
+    background-color: var(--scrollmarker);
     transition: 0.5s;
-    }
+}
 
 main section:nth-of-type(1) ul:first-of-type li::scroll-marker:target-current {
-  background: #0f0f0f;
+  background: var(--currentscrollmarker);
 }
 
 main section:nth-of-type(1) > p:first-of-type {
@@ -229,7 +244,7 @@ main section:nth-of-type(3) > a {
     font-size: 0.875rem;
     text-decoration: underline;
     text-underline-offset: 4px;
-    color: #0051AA;
+    color: var(--blue);
 }
 
 main section:nth-of-type(3) > h3 {
@@ -247,6 +262,7 @@ form input[type="radio"] {
 }
 
 form label {
+    color:var(--black);
     font-family: SalomonLight;
     font-size: 0.875rem;
     display: flex;
@@ -276,8 +292,8 @@ form p:first-of-type {
 form button {
     grid-column: 1 / -1;
     padding: 12px;
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     border: none;
     border-radius: 25px;
     font-family: SalomonLight;
@@ -327,7 +343,7 @@ main section:nth-of-type(4) button, main section:nth-of-type(9) button {
     font-size: 0.875rem;
 }
 
-main section:nth-of-type(4) button svg, main section:nth-of-type(9) button svg {
+main section:nth-of-type(4) button img:nth-of-type(2), main section:nth-of-type(9) button img:nth-of-type(2) {
     margin-left: auto;
     justify-content: end;
 }
@@ -344,6 +360,7 @@ main section:nth-of-type(5) button {
     font-size: 0.875rem;
     font-weight: 400;
     border: none;
+    color:var(--black);
     background-color: transparent;
     text-decoration: underline;
     text-underline-offset: 2px;
@@ -381,6 +398,7 @@ main section:nth-of-type(6) ul {
     display: flex;
     list-style: none;
     overflow-x: scroll;
+    
     padding: 1.25rem;
     scroll-snap-type: x mandatory;
     scroll-snap-align: center;
@@ -444,8 +462,11 @@ main section:nth-of-type(7) ul li a > img:nth-of-type(1) {
     max-width: 65vw;
     aspect-ratio: 1/1;
 }
-
+main section:nth-of-type(7) ul li ul {
+    scrollbar-width: none;
+}
 main section:nth-of-type(7) ul li a ul li img {
+    scrollbar-width: none;
     max-width: 40px;
     padding: 0;
     margin:0;
@@ -470,7 +491,7 @@ main section:nth-of-type(8) > ul > li:nth-of-type(1) > p:first-of-type {
     grid-row: 1/1;
     grid-column: 2/2;
     justify-self: end;
-    color: #737373;
+    color: var(--midgray);
     font-size: 0.875rem;
     margin-bottom:1rem;
 }
@@ -489,7 +510,7 @@ main section:nth-of-type(8) > ul > li:nth-of-type(1) {
 main section:nth-of-type(8) > ul > li:nth-of-type(1) > p:last-of-type {
     grid-row: 3/3;
     grid-column: 1/3;
-    color: #737373;
+    color: var(--midgray);
     margin-bottom:1rem;
 }
 
@@ -506,15 +527,15 @@ main section:nth-of-type(8) > ul > li {
     max-height: 300px;
 }
  
-main section:nth-of-type(8) ul li:nth-of-type(2) {
-    background-color: #F5F5F5;
+main section:nth-of-type(8) > ul > li:nth-of-type(2) {
+    background-color: var(--superlightgray);
 }
 
 main section:nth-of-type(8) ul li:nth-of-type(2) ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    background-color: #F5F5F5;
+    background-color: var(--superlightgray);
 }
 
 main section:nth-of-type(8) > ul > li:nth-of-type(2) {
@@ -535,6 +556,7 @@ main section:nth-of-type(8) > ul > li:nth-of-type(2) ul li{
 }
 
 main section:nth-of-type(8) > button {
+    color: var(--black);
     margin: 3rem 4rem;
     padding: 1rem;
     font-family: SalomonLight;
@@ -683,7 +705,7 @@ main section:nth-of-type(8) {
         padding-left: 3.5rem;
     }
 
-    main section:nth-of-type(7) ul {
+    main section:nth-of-type(7) > ul:first-of-type {
         padding-left: 3.5rem;
         padding-right: 3.5rem;
     }
