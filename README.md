@@ -201,19 +201,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/GEIS_HOME_PAGE.JPG" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik vind dat ik bijzonder dichtbij de echte site ben gekomen. Ik heb best wat geleerd, maar ik merk vooral dat ik veel sneller weet wat er moet gebeuren als ik iets zie op een site en dat wil namaken.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/GEIS_HOME_PAGE_.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik had iets meer interactie willen doen, al had ik responsive gekozen, leek het me ook leuk om wat meer interactieve dingen toe te voegen. Ook had ik graag nog iets meer tijd gehad om echt alle details uit te werken, maar daar was ik helaas niet aan toegekomen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/GEIS_ARTIKEL_PAGINA.jpg" width="375px" alt="bummer">
 </details>
 
 
