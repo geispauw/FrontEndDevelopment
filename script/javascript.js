@@ -1,8 +1,3 @@
-const texts = [
-  "Gratis bezorging voor leden",
-  "Gratis retourneren binnen 30 dagen",
-];
-
 const navButton1 = document.querySelector("footer nav:nth-of-type(1) > button");
 const navButton2 = document.querySelector("footer nav:nth-of-type(2) > button");
 const navButton3 = document.querySelector("footer nav:nth-of-type(3) > button");

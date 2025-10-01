@@ -108,6 +108,7 @@ main section:nth-of-type(1) ul:first-of-type::scroll-marker-group {
   justify-content: center;
   gap: 0.25rem;
   width: 100%;
+  margin-top: 41rem;
 }
 
 main section:nth-of-type(1) ul:first-of-type li::scroll-marker {
@@ -127,6 +128,10 @@ main section:nth-of-type(1) > p:first-of-type {
   padding: 0.5rem 1.25rem 0.5rem;
   font-size: 0.625rem;
   color: var(--supergray);
+}
+
+main section:nth-of-type(1) label {
+  display: none;
 }
 
 /* section 2 (schoeninfo) */
@@ -277,12 +282,10 @@ form label:has(input:checked) {
   border: 2px solid;
 }
 
-/* Initially hide the paragraph */
 form p.hidden {
   display: none;
 }
 
-/* Show paragraph when any radio button is checked */
 form:has(input[type="radio"]:checked) p.hidden {
   display: block;
   margin-top: 1rem;
