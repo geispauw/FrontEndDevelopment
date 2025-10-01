@@ -76,6 +76,9 @@ main aside > ul li a img {
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels */
 main section:nth-of-type(1) ul:first-of-type li img {
   width: 100%;
+  aspect-ratio: 436 / 542;
+  width: 100%;
+  height: auto;
 }
 
 main section:nth-of-type(1) {
