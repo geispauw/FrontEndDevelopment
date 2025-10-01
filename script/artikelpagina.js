@@ -11,20 +11,20 @@ const shoeImage = document.querySelector(
 shoeChange1.addEventListener("click", (event) => {
   event.stopPropagation();
   event.preventDefault();
-  shoeImage.src = "../images/2_XT-6_SHADOW.jpg";
+  shoeImage.src = "images/2_XT-6_SHADOW.jpg";
 });
 
 shoeChange2.addEventListener("click", (event) => {
   // event.stoppropagation & preventdefault is van chatGPT: "My page is jumping back to start on button press, how do i fix this?"
   event.stopPropagation();
   event.preventDefault();
-  shoeImage.src = "../images/XT_SHADOW_SMALL_ALTCOLOR.jpg";
+  shoeImage.src = "images/XT_SHADOW_SMALL_ALTCOLOR.jpg";
 });
 
 shoeImage.addEventListener("mouseover", () => {
   // .includes is van chatGPT. heeft hij met de prompt hierboven ook gelijk gefixt, weet niet waarom.
   if (shoeImage.src.includes("/images/2_XT-6_SHADOW.jpg")) {
-    shoeImage.src = "../images/2_XT-6_SHADOW_ALT.jpg";
+    shoeImage.src = "images/2_XT-6_SHADOW_ALT.jpg";
   } else {
     return;
   }
@@ -32,7 +32,7 @@ shoeImage.addEventListener("mouseover", () => {
 
 shoeImage.addEventListener("mouseout", () => {
   if (shoeImage.src.includes("/images/2_XT-6_SHADOW_ALT.jpg")) {
-    shoeImage.src = "../images/2_XT-6_SHADOW.jpg";
+    shoeImage.src = "images/2_XT-6_SHADOW.jpg";
   } else {
     return;
   }
@@ -54,3 +54,4 @@ checkBox.addEventListener("change", () => {
     }
   });
 });
+
