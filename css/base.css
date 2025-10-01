@@ -185,7 +185,6 @@ header input {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   padding-right: 1em;
-  width: 80vw;
   height: 3rem;
   background-color: transparent;
   border: none;
@@ -510,3 +509,4 @@ footer nav ul li a img {
     padding: 3.5rem;
   }
 }
+
