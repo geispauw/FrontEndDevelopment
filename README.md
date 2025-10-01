@@ -158,7 +158,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Ik heb een "search" knop toegevoegd. deze was niet aanwezig op de originele pagina.
+  - Ik heb een dark mode toegevoegd. Deze was ook niet aanwezig op de originele pagina.
+  - De screenreader doet het goed. 95% van alle elementen leest hij goed op en hij gaat altijd in de goede volgorde. Soms leest hij alleen dingen verkeerd op.
+  - grotendeels (±90%) van de knoppen hebben een bijpassende naam.
+  - HTML en CSS is geldig. geen errors (naast de scroll markers, nagechecked bij Sanne)
+  - Viewport zoom doet het.
+  - button en links kunnen goed geactiveerd worden (van wat werkt)
+  - Veel h2's. Misschien een iets duidelijkere hiërarchie?
+  - code is voor het meeste goed semantisch.
+  - Volgende keer meer gebruik maken van aria-labels.
+  - Alle img's hebben een alt text, en beschrijven de img.
+  - links hebben een underline.
+  - geen high contrast mode.
+  - animaties flashen niet te veel.
+
 
 </details>
 
