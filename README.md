@@ -76,12 +76,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
+  https://www.figma.com/proto/wQrgzwmuK5MGRyGpeIgb0i/Breakdown-Geis?node-id=0-1&t=btt4SqOZM1vvwikc-1
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  de footer, met de uitklapbare ul's
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -127,7 +126,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik moest nog even opstarten met html, maar ben nu wel goed op weg.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -143,8 +142,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1: aspect ratio mag
   - punt 2: de has: property in css.
-  - nog een punt
-- ...
+
 
 </details>
 
@@ -187,7 +185,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  ik ben bijna klaar met de eerste pagina. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
