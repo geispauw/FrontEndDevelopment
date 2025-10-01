@@ -110,9 +110,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1: op het begin van elke section moet het beginnen met een <h> element
-  - punt 2:
-  - 
+  - punt 1: op het begin van elke section moet het beginnen met een h element
+  - punt 2: je kan met lang= talen aanpassen in je html zodat de reader hem goed leest.
+  - punt 3:aria label verteld meer over a of buttons.
 
 </details>
 
@@ -141,8 +141,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - punt 1: aspect ratio mag
+  - punt 2: de has: property in css.
   - nog een punt
 - ...
 
@@ -178,20 +178,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Geis: mogen  <h>’s op het begin van sections visually hidden zijn? Html van beide paginas nog nachecken dat er geen gekke dingen gebeuren (denk het niet maar je weet maar nooit) (vooral de footer)
+  Serra: Met screenreader worden de buttons en niet de kopjes voorgelezen. Ik heb nog hulp nodig met mijn 2de pagina responsive maken.
+  Vince: Ik wil weten hoe ik mijn sections hetzelfde moet positioneren in mijn home pagina wanneer ik de volgorde verbeter in html
+  June: /
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: visually hidden mag zeker.
+  - punt 2: de footer is ook ok met ul's die hidden zijn.
 
 </details>
 
