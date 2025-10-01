@@ -42,6 +42,7 @@ const checkBox = document.querySelector("section:first-of-type input");
 const hiddenItems = document.querySelectorAll(
   "section:first-of-type ul li:nth-of-type(n+7)"
 );
+
 const label = document.querySelector("section:first-of-type label");
 // https://medium.com/@ryan_forrester_/hide-and-show-elements-in-javascript-a-complete-guide-e44871f15774 //
 checkBox.addEventListener("change", () => {
@@ -54,4 +55,3 @@ checkBox.addEventListener("change", () => {
     }
   });
 });
-
