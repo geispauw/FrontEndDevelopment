@@ -38,13 +38,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina 
+  Homepagina
+  ---
   <img src="readme-images/HomePagina.png" width="375px" alt="Home page van Salomon">
 
- ---
+ 
 
   ##### Screenshot(s) van de tweede pagina (small screen):
   Pagina van schoen  
+  ---
   <img src="readme-images/SchoenPagina.png" width="375px" alt="Artikel Pagina over een schoen">
  
 </details>
