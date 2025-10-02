@@ -78,6 +78,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina:
   <img src="readme-images/GEIS_PAUW_BREAKDOWN.jpg" alt="Breakdown schets" width="375px">
+  
   ### dynamisch deel (bijv menu): 
   de footer, met de uitklapbare ul's.
   Ook kan je klikken op de schoenkleuren & er overheen hoveren voor een alternate image
@@ -160,21 +161,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  <img src="readme-images/dummy-plaatje.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0001.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0002.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0003.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0004.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0005.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
+  
+
+  
   - Ik heb een "search" knop toegevoegd. deze was niet aanwezig op de originele pagina.
   - Ik heb een dark mode toegevoegd. Deze was ook niet aanwezig op de originele pagina.
-  - De screenreader doet het goed. 95% van alle elementen leest hij goed op en hij gaat altijd in de goede volgorde. Soms leest hij alleen dingen verkeerd op.
-  - grotendeels (±90%) van de knoppen hebben een bijpassende naam.
-  - HTML en CSS is geldig. geen errors (naast de scroll markers, nagechecked bij Sanne)
+  - De screenreader doet het goed over de hele pagina. Hij leest in principe alle elementen goed op en hij gaat altijd in de goede volgorde. Soms leest hij alleen woorden zoals de namen van de schoenen en "geleende worden" uit het engels verkeerd op.
+  - HTML en CSS is geldig. geen errors (naast de scroll markers, nagechecked bij Sanne).
   - Viewport zoom doet het.
   - button en links kunnen goed geactiveerd worden (van wat werkt)
-  - Veel h2's. Misschien een iets duidelijkere hiërarchie?
-  - code is voor het meeste goed semantisch.
-  - Volgende keer meer gebruik maken van aria-labels.
-  - Alle img's hebben een alt text, en beschrijven de img.
-  - links hebben een underline.
+  - Veel h2's. Misschien een iets duidelijkere hiërarchie? Op de 2e pagina mist ook een h1. Daarnaast gaat het ook ineens naar h3 en h4, waar is de h2? 
+  - code is voor het meeste goed semantisch. Soms wordt er een a en button door elkaar gehaald.
+  - Volgende keer meer gebruik maken van aria-labels. Sommige buttons en links hebben aparte namen.
+  - Alle img's hebben een alt text, en beschrijven de img. Sommige alt text bij de schoenen konden wel beter de schoen omschrijven.
+  - links hebben een underline, dus het is duidelijk dat dat links zijn.
   - geen high contrast mode.
-  - animaties flashen niet te veel.
+  - animaties flashen niet bijzonder veel, ook omdat er niet zoveel animaties zijn.
 
 
 </details>
@@ -246,8 +253,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. (https://www.salomon.com/en-nl) (uiteraard)
+  2. (ChatGPT. Vaak gebruikt om te troubleshooten, of een begin te maken.) event.stoppropagation & preventdefault is van chatGPT: "My page is jumping back to start on button press, how do i fix this?" (waren uiteindelijk niet nodig omdat het geen submit knop is.
+  3. (https://medium.com/@ryan_forrester_/hide-and-show-elements-in-javascript-a-complete-guide-e44871f15774)
+  4. (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels)
+  5. (https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
+  6. En uiteraard Sanne, Bahaa & David
 
 </details>
