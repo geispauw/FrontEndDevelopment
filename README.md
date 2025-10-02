@@ -43,7 +43,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
  <br>
 
-  #### Screenshot(s) van de tweede pagina (small screen):
+  ##### Screenshot(s) van de tweede pagina (small screen):
   Pagina van schoen  
   <img src="readme-images/SchoenPagina.png" width="375px" alt="Artikel Pagina over een schoen">
  
