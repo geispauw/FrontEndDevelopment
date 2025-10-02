@@ -161,11 +161,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  <img src="readme-images/WCAG-checklist_page-0001.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
-  <img src="readme-images/WCAG-checklist_page-0002.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
-  <img src="readme-images/WCAG-checklist_page-0003.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
-  <img src="readme-images/WCAG-checklist_page-0004.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
-  <img src="readme-images/WCAG-checklist_page-0005.jpg.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0001.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0002.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0003.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0004.jpg" alt="foto van de WCAG checklist." width="375px">
+  <img src="readme-images/WCAG-checklist_page-0005.jpg" alt="foto van de WCAG checklist." width="375px">
   
 
   
