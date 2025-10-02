@@ -74,11 +74,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/GEIS_PAUW_BREAKDOWN.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele pagina:
   https://www.figma.com/proto/wQrgzwmuK5MGRyGpeIgb0i/Breakdown-Geis?node-id=0-1&t=btt4SqOZM1vvwikc-1
   ### dynamisch deel (bijv menu): 
-  de footer, met de uitklapbare ul's
+  de footer, met de uitklapbare ul's.
+  Ook kan je klikken op de schoenkleuren & er overheen hoveren voor een alternate image
+  en op de schoenpagina kan je klikken op "meer afbeeldingen" en dan krijg je meer afbeeldingn
+  
 
 
 
@@ -111,7 +113,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1: op het begin van elke section moet het beginnen met een h element
   - punt 2: je kan met lang= talen aanpassen in je html zodat de reader hem goed leest.
-  - punt 3:aria label verteld meer over a of buttons.
+  - punt 3: aria label vertelt meer over a of buttons.
 
 </details>
 
@@ -156,6 +158,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+  <img src="readme-images/dummy-plaatje.jpg" alt="foto van de WCAG checklist." width="375px">
   - Ik heb een "search" knop toegevoegd. deze was niet aanwezig op de originele pagina.
   - Ik heb een dark mode toegevoegd. Deze was ook niet aanwezig op de originele pagina.
   - De screenreader doet het goed. 95% van alle elementen leest hij goed op en hij gaat altijd in de goede volgorde. Soms leest hij alleen dingen verkeerd op.
