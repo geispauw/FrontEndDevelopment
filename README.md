@@ -35,7 +35,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.salomon.com/en-nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina
@@ -88,9 +88,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ook kan je klikken op de schoenkleuren & er overheen hoveren voor een alternate image
   en op de schoenpagina kan je klikken op "meer afbeeldingen" en dan krijg je meer afbeeldingn
   
-
-
-
 </details>
 
 
@@ -199,8 +196,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  ik ben bijna klaar met de eerste pagina. 
+  ik ben klaar met de eerste pagina, en heb de html van mijn 2e pagina. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
