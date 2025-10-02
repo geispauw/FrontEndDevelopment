@@ -1,4 +1,4 @@
-[GEIS_PAUW_BREAKDOWN.pdf](https://github.com/user-attachments/files/22658619/GEIS_PAUW_BREAKDOWN.pdf)# Procesverslag
+# Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
