@@ -255,7 +255,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. (https://www.salomon.com/en-nl) (uiteraard)
-  2. (ChatGPT. Vaak gebruikt om te troubleshooten, of een begin te maken.) event.stoppropagation & preventdefault is van chatGPT: "My page is jumping back to start on button press, how do i fix this?" (waren uiteindelijk niet nodig omdat het geen submit knop is.
+  2. (ChatGPT. Vaak gebruikt om te troubleshooten, of een begin te maken.) event.stoppropagation & preventdefault is van chatGPT: "My page is jumping back to start on button press, how do i fix this?" (was uiteindelijk niet nodig omdat het geen submit knop is.))
   3. (https://medium.com/@ryan_forrester_/hide-and-show-elements-in-javascript-a-complete-guide-e44871f15774)
   4. (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels)
   5. (https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
