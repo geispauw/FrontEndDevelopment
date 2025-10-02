@@ -41,7 +41,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Homepagina 
   <img src="readme-images/HomePagina.png" width="375px" alt="Home page van Salomon">
 
- 
+ <br>
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Pagina van schoen  
