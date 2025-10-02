@@ -54,6 +54,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+  **Zie screenshot van de WCAG test bij de 2e test.**
+  
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   - de alt texts zijn niet de beste. over het algemeen staat er constant iets anders bij zoals "homepage_gravelrunning" wat ook gewoon          "gravelrunning" kon zijn.
@@ -64,7 +66,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Er is niet echt een focus state, wat verwarrend kan zijn.
   - Je wordt geforceerd om door alle soorten producten te gaan die in de header staat, wat enorm veel is om doorheen te gaan. Skip knop zou handig zijn.
   - Er is geen Dark en light mode.
-  - 
+    
 </details>
 
 
@@ -75,7 +77,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina:
-  https://www.figma.com/proto/wQrgzwmuK5MGRyGpeIgb0i/Breakdown-Geis?node-id=0-1&t=btt4SqOZM1vvwikc-1
+  <img src="readme-images/GEIS_PAUW_BREAKDOWN.jpg" alt="Breakdown schets" width="375px">
   ### dynamisch deel (bijv menu): 
   de footer, met de uitklapbare ul's.
   Ook kan je klikken op de schoenkleuren & er overheen hoveren voor een alternate image
