@@ -75,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/GEIS_PAUW_BREAKDOWN.PDF" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/GEIS_PAUW_BREAKDOWN.jpg" width="375px" alt="breakdown van de hele pagina">
   https://www.figma.com/proto/wQrgzwmuK5MGRyGpeIgb0i/Breakdown-Geis?node-id=0-1&t=btt4SqOZM1vvwikc-1
   ### dynamisch deel (bijv menu): 
   de footer, met de uitklapbare ul's
