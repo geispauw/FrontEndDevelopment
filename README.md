@@ -100,7 +100,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Nog niet echt iets opmerkelijks, ik moet opnieuw beginnen, omdat ik op groot scherm ben begonnen.
 
 
   ### Agenda voor meeting
@@ -131,8 +131,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  Ik moest nog even opstarten met html, maar ben nu wel goed op weg.
+  Ik moest nog even opstarten met html, maar ben nu wel goed op weg. Ook ben ik opnieuw begonnen om op mobiel te beginnen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
