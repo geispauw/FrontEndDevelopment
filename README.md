@@ -41,6 +41,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Homepagina 
   <img src="readme-images/HomePagina.png" width="375px" alt="Home page van Salomon">
 
+ 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Pagina van schoen  
@@ -231,7 +232,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Ik vind dat ik bijzonder dichtbij de echte site ben gekomen. Ik heb best wat geleerd, maar ik merk vooral dat ik veel sneller weet wat er moet gebeuren als ik iets zie op een site en dat wil namaken.
 
-  <img src="readme-images/GEIS_HOME_PAGE_.jpg" width="375px" alt="top">
+  <img src="readme-images/GEIS_HOME_PAGE.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
